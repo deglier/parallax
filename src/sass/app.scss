@@ -4,8 +4,11 @@
         "utils";
 
 :root{
-  font-family: 'Quicksand', sans-serif;
   font-size: 62.50%;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
 }
 
 @import "header-parallax"; /* header */
