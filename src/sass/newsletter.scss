@@ -1,0 +1,16 @@
+.bar-newsletter {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  form.container {
+    input {
+      margin: 5px 20px;
+    }
+    .button-primary {
+      @media screen and (min-width: #{$mobile-width}){
+        margin-left: 2rem;
+
+      }
+    }
+  }
+}

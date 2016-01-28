@@ -1,0 +1,29 @@
+.parallax {
+  .background {
+    position: relative;
+    height: 28rem;
+    background-image: url('../img/bg-parallax.jpg');
+    background-repeat: no-repeat;
+    background-size: 220%;
+    background-position: center bottom;
+    overflow: hidden;
+    z-index: -5;
+    @media screen and (min-width: #{$mobile-width}){
+      height: 50vh;
+      background-size: auto;
+    }
+
+  }
+  .logo {
+    width: 25rem;
+    display: block;
+    margin: 5rem auto 0 auto;
+    @media screen and (min-width: #{$mobile-width}){
+      width: 40rem;
+      margin: 10rem auto 0 auto;;
+    }
+  }
+  .foreground {
+
+  }
+}
