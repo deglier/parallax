@@ -14,7 +14,7 @@ $(window).scroll(function(){
   if(parallaxWidth > mobileWidth) {
     if(wScroll <= parallaxHeight) {
       $('.logo').css({
-        'transform' : 'translate(0px, ' + wScroll /3 +'%)'
+        'transform' : 'translate(0px, ' + wScroll /10 +'%)'
       });
       $('.background').css({
         'transform' : 'translate(0px, ' + wScroll /20 +'%)'
