@@ -1,0 +1,53 @@
+
+:root{
+  font-family: 'Lato', sans-serif;
+  font-size: 62.50%;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.parallax {
+  .background {
+    position: relative;
+    height: 60rem;
+    background-image: url('../img/bg-parallax.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center bottom;
+    overflow: hidden;
+    z-index: -5;
+
+  }
+  .logo {
+    height: 13.2rem;
+    width: 100%;
+    background-image: url('../img/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 7rem;
+  }
+  .foreground {
+
+  }
+}
+
+.container {
+  background-color: #fd5;
+  padding: 1rem;
+  margin: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+}

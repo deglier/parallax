@@ -1,0 +1,1 @@
+var parallaxHeight=$(".parallax").height();$(window).scroll(function(){var a=$(this).scrollTop();parallaxHeight>=a&&($(".logo").css({transform:"translate(0px, "+a/5+"%)"}),$(".background").css({transform:"translate(0px, "+a/20+"%)"}))});
