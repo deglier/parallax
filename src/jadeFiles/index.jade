@@ -13,11 +13,13 @@ html(lang="pt-br")
     link(href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css')
     link(rel='stylesheet', href='./assets/css/app.css')
   body
-    header.parallax
+    header#parallax
       .background
         img(src="./assets/img/logo.png", alt="").logo
-        .foreground
-          
+        .container
+          .row
+            .twelve.columns.description
+              p Blog para contadores, estudantes e empreendedores.
     .bar-newsletter
       form(action="").container
         .row
