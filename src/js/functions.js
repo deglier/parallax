@@ -12,8 +12,10 @@ $(document).ready(function() {
 **/
 /* parallax effect */
 function parallax(){
-  var el			=		document.querySelectorAll(".parallax-item");
-  var scroll	=		window.pageYOffset;
+
+  var scroll = window.pageYOffset,
+      el     = document.querySelectorAll(".parallax-item");
+
   for (var i = 0; i < el.length; i++) {
     if(scroll < el[i].offsetHeight){
       el[i].style.transform = 'translate(0%,' + scroll/((i+1)*10) + '%)';
@@ -21,6 +23,5 @@ function parallax(){
   }
 
 }
-
 /* create event for parallax */
 document.addEventListener("scroll", parallax);
