@@ -12,7 +12,6 @@ function parallax(seletor, velocidade, limite, mobileWidth) {
   var scroll = window.pageYOffset;
   var el     = document.querySelectorAll(seletor);
   var width  = document.body.offsetWidth;
-
   if(width < mobileWidth){
   }else{
     for (var i = 0; i < el.length; i++) {
