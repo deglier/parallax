@@ -4,8 +4,6 @@ $(document).ready(function() {
   nice = $("html").niceScroll();
 });
 
-
-
 /**
 * @author: Deglier Amorim
 **/
