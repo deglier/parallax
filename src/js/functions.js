@@ -1,7 +1,9 @@
-
 /* Calls jquery functions */
 $(document).ready(function() {
   nice = $("html").niceScroll();
+  $("#loading").fadeOut('slow', function() {
+    $(this).hide();
+  });
 });
 
 /**
